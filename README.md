@@ -9,8 +9,11 @@ based on msgpack-c (https://github.com/msgpack/msgpack-c)
 install:
  
 (Octave)
+
     mkoctfile -mex msgpack.cc -lmsgpack
+
 (Matlab)
+
     mex -O msgpack.cc -lmsgpack
 
 API
